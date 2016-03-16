@@ -7,34 +7,34 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
+      name: "Beer.js SJC",
+      description: "Beer.js SJC é um Meetup para JavaScripters de São José dos Campos e todo o Vale do Paraíba ! Encontros que giram em torno de duas coisas: Cerveja e JavaScript!",
       date: "November 15",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      //price: "$100",
+      venue: "Cervejaria Devassa",
+      address: "Av. São João, 2200",
+      city: "São José dos Campos",
+      state: "São Paulo"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Fique por dentro!",
+        link: "http://www.meetup.com/Beer-js-SJC/"
     },
 
     // "Fork me on GitHub", if you don't want this, just remove the forkButton property
     forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
+        repository: "https://github.com/hliberato/conf-boilerplate/tree/beerjs-sjc"
     },
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      //url: "http://braziljs.github.io/conf-boilerplate/",
+      //googleanalytics: "UA-33656081-1"
     },
 
     // Active sections on the website
@@ -43,8 +43,8 @@ module.exports = {
     sections: [
       'about',
       'location',
-      'speakers',
-      'schedule',
+      //'speakers',
+      //'schedule',
       'sponsors',
       'partners'
       // 'contact'
@@ -52,13 +52,13 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Sobre",
+      location: "Local",
+      //speakers: "Speakers",
+      //schedule: "Schedule",
+      sponsors: "Patrocínios",
+      partners: "Parceiros",
+      contact: "Contato"
     },
 
     // The entire schedule
